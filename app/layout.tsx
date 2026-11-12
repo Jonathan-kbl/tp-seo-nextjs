@@ -3,7 +3,7 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tp-seo-nextjs-tawny.vercel.app"),
+  metadataBase: new URL("https://tp-seo-nextjs-six.vercel.app"),
   title: "Lago - Informatique Appliquée à la Gestion",
   description: "Vitrine professionnelle pour le projet de fin d'année IT Management",
   verification: {
