@@ -1,21 +1,16 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+
 export const metadata: Metadata = {
- metadataBase: new URL("https://tp-seo-nextjs-tawny.vercel.app"),
-  title: "Lago | Informatique appliquée à la gestion des entreprises",
-  description: "Découvrez Lago : intégration de solutions informatiques et gestion d'entreprise par Jonathan Lago à Goma.",
-  alternates: { canonical: "/" },
-  robots: { index: true, follow: true },
-  openGraph: {
-    title: "Lago | Informatique appliquée à la gestion des entreprises",
-    description: "Des solutions technologiques pour organiser, piloter et développer votre entreprise.",
-    type: "website",
-    locale: "fr_CD",
-    siteName: "Lago",
-    url: "/",
+  metadataBase: new URL("https://tp-seo-nextjs-tawny.vercel.app"),
+  title: "Lago - Informatique Appliquée à la Gestion",
+  description: "Vitrine professionnelle pour le projet de fin d'année IT Management",
+  verification: {
+    google: "mQGwq0VOBeVhXFLxbYXcjFNaSXK1pnu1gW30xEzVXEQ",
   },
 };
+
 
 export default function RootLayout({
   children,
