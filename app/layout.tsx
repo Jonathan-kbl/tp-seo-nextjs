@@ -21,7 +21,7 @@ export default function RootLayout({
       <body>
         {children}
       </body>
-      <GoogleAnalytics gaId="GTM-WQT3QVLP" />
+      <GoogleAnalytics gaId="G-X046TH5LFQ" />
     </html>
   );
 }
